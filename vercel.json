@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/tiktokview.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/tiktokview", "dest": "api/tiktokview.py" }
+  ]
+}
